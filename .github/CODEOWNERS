@@ -1,0 +1,12 @@
+# Notebook final: integración centralizada para evitar conflictos de Jupyter.
+/notebooks/Informe_Teorico_Practico_1.ipynb @Pacha-e
+
+# Áreas de trabajo acordadas.
+/notebooks/work/01_datos_eda_manual.ipynb @srodrigub1
+/notebooks/work/02_eda_preprocesamiento.ipynb @Ang3l1485
+/notebooks/work/03_modelado_comparacion.ipynb @Pacha-e
+
+# Infraestructura y reglas del repositorio.
+/.github/ @Pacha-e
+/pyproject.toml @Pacha-e
+/uv.lock @Pacha-e

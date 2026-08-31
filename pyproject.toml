@@ -1,0 +1,23 @@
+[project]
+name = "informe-teorico-practico-1"
+version = "0.1.0"
+description = "Comparación de KNN sobre Telco Customer Churn con preprocesamiento mínimo y completo"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "category-encoders==2.10.0",
+  "ipykernel>=7,<8",
+  "jupyterlab>=4,<5",
+  "kagglehub>=0.3,<1",
+  "matplotlib>=3.10,<4",
+  "nbconvert>=7,<8",
+  "numpy>=2,<3",
+  "pandas>=2.2,<3",
+  "scikit-learn>=1.7,<2",
+    "scipy>=1.15,<2",
+    "seaborn>=0.13,<1",
+    "setuptools>=70,<81",
+    "ydata-profiling==4.18.4",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,7 @@
+# <tipo>(<alcance>): <descripción breve>
+#
+# Tipos: feat, fix, docs, test, refactor, chore, ci
+# Alcances sugeridos: datos, eda, preprocesamiento, modelo, informe, repo
+#
+# Explica en el cuerpo por qué se hizo el cambio.
+# Cierra la issue cuando corresponda: Closes #N

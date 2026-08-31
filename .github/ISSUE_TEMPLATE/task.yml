@@ -1,0 +1,41 @@
+name: Tarea técnica
+description: Trabajo acotado del Informe Teórico Práctico 1
+title: "[ÁREA] "
+labels:
+  - "type:task"
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo
+      description: Resultado concreto que debe producir esta tarea.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance
+      description: Incluye también lo que queda explícitamente fuera.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencias
+      description: Issues que deben cerrarse antes o información bloqueante.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia de cierre
+      description: Comandos, resultados, celdas o archivos que demuestran que quedó hecho.
+    validations:
+      required: true
