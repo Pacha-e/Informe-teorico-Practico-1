@@ -22,7 +22,7 @@ REQUIRED_PATHS = [
     PROJECT_ROOT / ".github" / "CODEOWNERS",
     PROJECT_ROOT / "notebooks" / "work" / "README.md",
     PROJECT_ROOT / "notebooks" / "work" / "01_datos_eda_manual.ipynb",
-    PROJECT_ROOT / "notebooks" / "work" / "02_eda_preprocesamiento.ipynb",
+    PROJECT_ROOT / "notebooks" / "work" / "02_preprocesamiento.ipynb",
     PROJECT_ROOT / "notebooks" / "work" / "03_modelado_comparacion.ipynb",
     NOTEBOOK,
 ]
