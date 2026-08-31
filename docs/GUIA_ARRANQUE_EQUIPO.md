@@ -22,9 +22,12 @@ hasta revisar la fuente.
 
 | Integrante | Issues | Notebook de trabajo |
 |---|---|---|
-| `srodrigub1` | #2 y #3 | `notebooks/work/01_datos_eda_manual.ipynb` |
-| `Ang3l1485` | #4, #5 y #6 | `notebooks/work/02_eda_preprocesamiento.ipynb` |
-| `Pacha-e` | #1, #7, #8 y #9 | `notebooks/work/03_modelado_comparacion.ipynb` |
+| `srodrigub1` | #2, #3 y #4 | `notebooks/work/01_datos_eda_manual.ipynb` |
+| `Pacha-e` | #1, #5, #6, #8 y #9 | `notebooks/work/02_preprocesamiento.ipynb` |
+| `Ang3l1485` | #7 | `notebooks/work/03_modelado_comparacion.ipynb` |
+
+Reparto revisado el 31 de agosto de 2026: el EDA completo queda en una sola
+persona y el preprocesamiento completo en otra.
 
 La invitación pendiente de `Ang3l1485` no bloquea la preparación local: el
 repositorio es público y puede clonarlo. Para publicar una rama deberá aceptar
@@ -73,9 +76,9 @@ Además:
 ## 6. Orden recomendado para el primer día
 
 1. Todos ejecutan la preparación local y comparan el SHA-256.
-2. `srodrigub1` inicia #2.
-3. `Pacha-e` cierra las preguntas administrativas de #1 y verifica el flujo de PR.
-4. `Ang3l1485` prepara #4 en su notebook local; puede publicar cuando acepte la
+2. `srodrigub1` inicia #2 y encadena #3 y #4 en el mismo notebook.
+3. `Pacha-e` entrega #5 y #6 lo antes posible: el modelado depende de ellas.
+4. `Ang3l1485` prepara #7 en su notebook local; puede publicar cuando acepte la
    invitación.
 5. El equipo hace una sincronización corta y registra bloqueos directamente en
    las issues, no en mensajes aislados.

@@ -524,11 +524,15 @@ entregar archivos auxiliares sin confirmación del profesor.
 
 ## 9. Reparto equilibrado para tres integrantes
 
+Reparto revisado el 31 de agosto de 2026: el EDA completo (manual y automático)
+queda en una sola persona y el preprocesamiento completo en otra, porque ambos
+frentes tienen carga comparable y separarlos por herramienta la desequilibraba.
+
 | Integrante | Propiedad principal | Evidencia que entrega | Revisión cruzada |
 |---|---|---|---|
-| 1 — `srodrigub1` — Negocio/datos/EDA manual | Problema, fuente, diccionario, auditoría, split, estadística, `IQRratio`, visuales | Secciones 2–7 y checklist de calidad | Revisa métricas/modelo del 3 |
-| 2 — `Ang3l1485` — EDA automático/preprocesamiento | ProfileReport, contraste EDA, limpieza, encoding, Pearson/Spearman, VIF y scaling | Secciones 8–11 y tabla de decisiones por columna | Revisa EDA manual del 1 |
-| 3 — `Pacha-e` — Modelado/integración | KNN fijo, métricas, comparación, ejecución y exportación | Secciones 12–17; notebook/PDF integrados | Revisa leakage/pipelines del 2 |
+| 1 — `srodrigub1` — Negocio/datos/EDA | Problema, fuente, diccionario, auditoría, split, estadística, `IQRratio`, visuales, ProfileReport y contraste manual vs. automático | Secciones 2–9 y checklist de calidad | Revisa métricas/modelo del 3 |
+| 2 — `Pacha-e` — Preprocesamiento/integración | Pipeline mínimo, pipeline limpio, encoding, Pearson/Spearman, VIF, scaling y tabla de decisiones por columna | Secciones 10–11 y 16–17; notebook/PDF integrados | Revisa EDA del 1 |
+| 3 — `Ang3l1485` — Modelado/comparación | KNN fijo en ambas variantes, métricas, matrices y comparación | Secciones 12–15 | Revisa leakage/pipelines del 2 |
 
 Responsabilidad compartida no delegable:
 
@@ -539,7 +543,7 @@ Responsabilidad compartida no delegable:
 
 Protocolo para evitar conflictos del `.ipynb`:
 
-1. El integrante 3 custodia la copia maestra durante integración.
+1. `Pacha-e` custodia la copia maestra durante la integración.
 2. Cada dueño trabaja en un rango de secciones acordado y entrega celdas probadas.
 3. Solo una persona integra a la vez; después ejecuta desde la primera celda.
 4. Cada traspaso incluye: inputs, outputs esperados, dependencias y pruebas.

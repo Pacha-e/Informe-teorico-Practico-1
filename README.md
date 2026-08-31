@@ -25,12 +25,15 @@ y la planeación académica en
 
 | Integrante GitHub | Responsabilidad principal |
 |---|---|
-| `srodrigub1` | Negocio, adquisición, auditoría y EDA manual |
-| `Ang3l1485` | EDA automático, limpieza y preprocesamiento |
-| `Pacha-e` | Modelado, comparación, integración y exportación |
+| `srodrigub1` | Negocio, adquisición, auditoría y EDA completo (manual y automático) |
+| `Pacha-e` | Preprocesamiento: pipeline mínimo y pipeline limpio |
+| `Ang3l1485` | Entrenamiento del KNN y comparación de ambas variantes |
 
-`Pacha-e` custodia el notebook maestro. Cada bloque requiere revisión de una persona
-distinta de su autora.
+Reparto revisado el 31 de agosto de 2026 para que el EDA y el preprocesamiento no
+recaigan en la misma persona; queda registrado en [`docs/DECISIONES.md`](docs/DECISIONES.md).
+
+`Pacha-e` custodia el notebook maestro y la integración. Cada bloque requiere
+revisión de una persona distinta de su autora.
 
 ## Plan operativo en GitHub
 

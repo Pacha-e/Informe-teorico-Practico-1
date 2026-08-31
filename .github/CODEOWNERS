@@ -3,8 +3,8 @@
 
 # Áreas de trabajo acordadas.
 /notebooks/work/01_datos_eda_manual.ipynb @srodrigub1
-/notebooks/work/02_eda_preprocesamiento.ipynb @Ang3l1485
-/notebooks/work/03_modelado_comparacion.ipynb @Pacha-e
+/notebooks/work/02_preprocesamiento.ipynb @Pacha-e
+/notebooks/work/03_modelado_comparacion.ipynb @Ang3l1485
 
 # Infraestructura y reglas del repositorio.
 /.github/ @Pacha-e
